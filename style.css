@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body{
+  min-height: 100dvh;
+  background-size: cover;
+}
+
+body.home {
+  background: no-repeat url('papel/mountains-1.png') ;
+} 
+
+body.universo {
+  background: no-repeat url('/papel/mountains-2.png') ;
+} 
+
+body.exploracao {
+  background: no-repeat url('/papel/mountains-3.png') ;
+} 
+
+nav{
+  padding: 40px 0 40px 72px;
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+#id{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+
+  height: 440px;
+  
+}
+  
+h1{
+  color: #E1E1E6;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+button{
+  display: inline-flex;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 5px;
+  border: 2px solid #FFF;
+  background-color: transparent;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+button:hover{
+  background: #FFF;
+  color: hsla(194, 97%, 31%, 1);
+  transition: 0,4s;
+}
+
+p{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 75ch;
+}
+
+a{
+  display: inline-block;
+  text-align: center;
+  padding-inline: 1rem;
+
+  text-decoration: none;
+  color: hsla(240, 7%, 78%, 1);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  
+}
+
+a::before {
+  display: block;
+  content: attr(title);
+  font-weight: 700;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+a:hover{
+  color: hsla(0, 0%, 100%, 1);
+  font-weight: 700;
+}
+
+p{
+  color:  #E1E1E6;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  
+}
+
+#app{
+  padding: 0 72px;
+  width: 100%;
+  height: 200px;
+} 
